@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>SafeScribe - Secure Document Transfer System</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">SafeScribe</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Info</a></li>
+          <li><a href="#portfolio">R - GAP</a></li>
+          <li><a href="#team">Group Members</a></li>
+          <li><a href="#pricing">Presentation</a></li>
+          <li class="dropdown"><a href="#"><span>View Scopes</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EswCCsXw7_5Ho6FvLmDQUgUB6HppKQwoFY0aRUxM8xf-FQ?e=icYjEF">Scope 01 - Hate Speech Detection </a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/Eu5heM24H59Lq5UuOEhYwvUBqP9EgZ7iXG81YpIa8bUpYA?e=j4Ybyy">Scope 02 - Secure Document Editor with Lockdown Browser </a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EiRPbTgX_5pMr3LdPXnwX7ABjZ4mORX1p6HPVkzIHKD-IA?e=43ztyH">Scope 03 - Unique Digital Signature Creation</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/Ekav4H7WHgVJsFDsDe1mnSsBusE0DD00NEb3ruzxnPvKtA?e=Ti6EOi">Scope 04 - Whitelistening and Anomaly Detetction </a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Documentation</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EgMXEvFM3MlKp1lPRE1g9bkBhokYOq6hObjjXmxI7o1Xtg?e=7NiPqK">Taf</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EllRjBUdbiJJutvnCKhelJIBf9774ZjDIiqw0n3kx8FDtQ?e=ootCD1">Project Proposal</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EsQfoiaSaCFOigqkMKKvuj4BqHDlgPtXrTWe7X9dxGlQ3A?e=Mvpxkf">Charter</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/Eh_pQvTlM65IphUZsiJvcj0BMfTZipl2nSIsX9lq_89r9Q?e=Pxszn9">Status Document 01</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/Eh_pQvTlM65IphUZsiJvcj0BMfTZipl2nSIsX9lq_89r9Q?e=Pxszn9">Status Document 02</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EoewKWQ-Qd9BvBp-XwgDodsBJJxcBw2j3H0N1fnnMuUHzw?e=xP2zQj">Final Document</a></li>
+              <li><a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EsdyaieL9X9Ji-8z9NlZ1CYBcRXzxfM-ax0Kpj5MCKMj0Q?e=Jf856M">Research Log Book</a></li>
+              
+           
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Product Inquery</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Fortify Documents, Ensure Secure Transfer.</h1>
+            <p>Empowering trust with every document through advanced encryption, digital signatures, and biometric verification."</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">More Info</a>
+              <a href="" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+
+
+          
+          <div> <h3>Tools and Technologies</h3></div>
+         
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">Python</div>
+            <div class="swiper-slide">Flask</div>
+            <div class="swiper-slide">Pandas</div>
+            <div class="swiper-slide">Tensor Flow</div>
+            <div class="swiper-slide">React</div>
+            <div class="swiper-slide">PHP</div>
+            <div class="swiper-slide">JS</div>
+            <div class="swiper-slide">HTML</div>
+            <div class="swiper-slide">CSS</div>
+            <div class="swiper-slide">My SQL</div>
+            <div class="swiper-slide">Java</div>
+            <div class="swiper-slide">Open SSL</div>
+            <div class="swiper-slide">Vue JS</div>
+          </div>
+      
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p style="text-align: justify;">
+              In today's rapidly evolving digital world, safeguarding sensitive information and combating harmful content are critical challenges. Our project is at the forefront of addressing these issues by creating a unified platform that integrates advanced document security and automated hate speech detection.
+
+              Our innovative system ensures that confidential documents remain secure through cutting-edge technologies such as Role-Based and Mandatory Access Control (RBAC and MAC), biometric authentication, and real-time anomaly detection. We combine these security measures with sophisticated hate speech detection models that leverage machine learning and deep learning techniques to maintain a safe and respectful digital environment.
+              
+              With a focus on both document integrity and the identification of harmful content, our platform offers a comprehensive solution for individuals and organizations seeking to protect their data while promoting positive, hate-free communication.
+              
+              Join us as we redefine the future of secure and responsible digital interactions.
+              
+            </p>
+       
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Secure Document Transformation System</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Hate-Speech Detection Mechanism</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Text Transformation Software for Plagiarism Prevention</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Encryption and Anomaly Detection</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Database Management</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Post-Quantum Cryptography-Based Encryption</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Positive Online Environment</span></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>SafeScribe Software has 4 main Scopes  </span><strong>We have developed this project with 4 members</strong></h3>
+              <p>
+                1 data science student and 3 cyber security students
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+              <h3><span>01</span> Hate Speech Detetcion </h3>
+              <div class="faq-content">
+                  <p> The Hate Speech Detection feature in this project is designed to identify and mitigate harmful or offensive language within documents. Using machine learning algorithms, the system can automatically detect hate speech, offensive comments, or inappropriate content in real-time. Once detected, the system transforms these harmful expressions into more neutral or respectful language, promoting positive communication.
+
+                    This feature is particularly useful in environments where professional and ethical standards need to be maintained, ensuring that documents adhere to respectful and constructive communication guidelines, while also reducing the impact of offensive language on online interactions.</p>
+                </div>
+               <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span>Secure Document Editor with LockDown Browser</h3>
+                <div class="faq-content">
+                  <p>The Secure Document Editor in this project is designed to provide a safe and reliable environment for creating, editing, and managing sensitive documents. Integrated with advanced encryption methods and biometric authentication, the editor ensures that all document content remains confidential and protected from unauthorized access. Additionally, it includes features like real-time anomaly detection and secure digital signatures, allowing users to maintain the integrity of their documents while preventing tampering or data breaches. The editor also supports secure collaboration, making it ideal for handling both sensitive business and personal information.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+          
+
+              <div class="faq-item">
+                <h3><span>03</span> Unique Digital Siganature Emeded Document</h3>
+                <div class="faq-content">
+                  <p>The Unique Digital Signature Embedded Document feature in this project ensures that each document created or edited through the system is assigned a unique, tamper-proof digital signature. This signature is generated by combining the document's content with biometric data (such as a fingerprint) from the document's creator, along with advanced encryption techniques. This approach guarantees the authenticity and integrity of the document, preventing unauthorized modifications or forgery. Even if two documents contain identical content, their digital signatures will differ based on the biometric data, ensuring a secure and personalized verification for each file.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>04</span> Anomally Detection and White Listeting </h3>
+                <div class="faq-content">
+                  <p>The **Anomaly Detection and Whitelisting** feature in this project enhances document security by continuously monitoring user activities and system behaviors for unusual patterns. Anomaly detection algorithms identify deviations from normal usage, such as unauthorized access attempts, unusual document modifications, or irregular login times, which could indicate potential security threats. 
+
+                    Additionally, the **whitelisting** mechanism allows only pre-approved users, devices, or actions to access or modify documents, ensuring that only trusted entities interact with the system. By combining anomaly detection with whitelisting, the system provides a proactive approach to safeguarding documents against unauthorized access and malicious activities.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Project Mile-Stones </h3>
+            <p class="fst-italic">
+              Precentage Shows the total contribution to whole research and the blue color line showcase our completion rate in that particular component
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Topic Assessment</span> <i class="val">0%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Propsal precentation and Report</span> <i class="val">12%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Progress Presentation I</span> <i class="val">15%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Progress Presentation II</span> <i class="val">18%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+              <div class="progress">
+                <span class="skill"><span>Final Presentation & Viva</span> <i class="val">20%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Final Report</span> <i class="val">19%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Research Paper</span> <i class="val">10%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              
+              <div class="progress">
+                <span class="skill"><span>Website</span> <i class="val">2%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+                      
+              <div class="progress">
+                <span class="skill"><span>Research Logbook, Status Document 1 & 2 </span> <i class="val">4%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Research Info </h2>
+        <p>LR | Objectives | Methodology </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div><H3>Literature Review </H3>
+        <p style="text-align: justify;">
+          In today's digital landscape, protecting confidential information during transfer and storage is a major challenge due to the rise in cyber threats. Traditional document management systems often suffer from inadequate access controls, lack of encryption, and limited monitoring, making them vulnerable to insider threats and data leakage. To address these risks, researchers have proposed measures such as cryptographic protection, access control models, and real-time monitoring mechanisms to ensure that only authorized individuals gain access to sensitive data.
+
+One prominent approach to improving document security is the Lockdown Browser Concept. Originally developed for secure online assessments, this concept restricts user environments to prevent interaction with other programs. When applied to document management, it integrates Role-Based Access Control (RBAC) with Mandatory Access Control (MAC). RBAC simplifies system management by coordinating permissions based on users' roles, while MAC enforces strict resource control, preventing users from modifying policies. Although MAC enhances security, its inflexibility can limit its ability to address emerging threats. Research has shown that integrating RBAC and MAC can enhance security in environments that require strong document control, mitigating threats and preventing policy violations even by high-ranking users.
+
+In addition to access control, Digital Signatures are crucial for ensuring document integrity through cryptographic methods. The integration of biometric data such as fingerprints or eye scans strengthens digital signatures, making them more resistant to falsification. Biometric authentication ensures that documents are uniquely associated with their authors, reducing the likelihood of unauthorized tampering. However, challenges such as maintaining the privacy and accuracy of biometric data and preventing spoofing attacks remain. To counter these threats, multi-factor authentication systems that combine biometrics with behavioral patterns and device-based authentication are proposed.
+
+Anomaly Detection is another critical component of secure document systems. Traditional rule-based detection methods are being replaced by systems using digital forensic metadata, which provides detailed information about document interactions. Machine learning advancements have enabled real-time anomaly detection by analyzing forensic metadata, identifying unusual patterns such as connection attempts from unexpected locations or during odd hours. While effective, these systems require careful calibration to avoid overwhelming users with false positives.
+
+Despite significant progress in individual areas like access control, digital signatures, and anomaly detection, there remains a gap in integrating these technologies into a unified, secure document system, particularly for environments requiring high confidentiality. A proposed solution aims to bridge this gap by combining Lockdown Browser principles with enhanced MAC and RBAC, biometric authentication, forensic metadata analysis, and real-time alerts. This integrated system addresses modern document security challenges, ensuring both document integrity and confidentiality.
+
+Parallel to this, the complexity of hate speech detection, especially in social media environments, has also garnered significant attention. Most detection models have been built using datasets from platforms like Twitter, where data is characterized by a 280-character limit. Detection methods in this domain often rely on Classical Machine Learning techniques, such as Support Vector Machines (SVM), Random Forest, K-Nearest Neighbors (KNN), and Naive Bayes, with SVM being the most popular. Deep Learning models like Long Short-Term Memory (LSTM) and Bidirectional LSTM (BiLSTM) are also commonly used due to their ability to capture long-range dependencies in text. The use of Convolutional Neural Networks (CNN), combined with pre-trained embeddings like Word2Vec and GloVe, further enhances the effectiveness of hate speech detection.
+
+By integrating these advances in document security with hate speech detection techniques, a comprehensive system can be developed. This system would not only ensure the confidentiality and integrity of documents but also automatically identify and mitigate harmful content such as hate speech
+        </p>
+        </div>
+
+        <div><H3>Methodology</H3>
+        <p style="text-align: justify;"> The research focuses on tackling three separate but interrelated problems in the field of document management and text conversion. The primary objective is to create a robust document conversion system that can securely transmit both sensitive and non-sensitive documents to the appropriate authorities. This entails granting customers the capability to generate distinct signatures for their papers by utilizing a fusion of digital values and biometric data acquired through an integrated Internet of Things (IoT) fingerprint sensor. The objective is to bolster security and authentication protocols in document management, establishing a resilient and reliable method for conveying confidential information. (Shuchi Dhir, 2019)
+          Furthermore, the study focuses on the pressing issue of hate speech in internet content. The platform integrates a sophisticated hate-speech detection system and a transformational functionality that changes inflammatory content into a more suitable and non-damaging expression. This demonstrates a dedication to promoting a favorable and courteous online atmosphere by reducing the influence of offensive language and promoting productive dialogue. (Elizabeth Fernandes a, Sérgio Moro b, Paulo Cortez , 2023 july)
+          This project entails the creation and execution of a proficient real-time detection system for our safe document transformation, necessitating the amalgamation of several components. Major obstacles involve choosing a suitable operating system, programming language, and tools that are in line with the unique project objectives, existing infrastructure, and team's skills. The primary objective is to create a resilient system that can promptly identify occurrences or trends in live data. (Jonghyeon Cho , 2019)
+          Lastly, the research extends to the realm of text transformation software with a focus on addressing plagiarism issues. The technology developed aims to set itself apart by correlating with plagiarism detection algorithms, including those used by Turnitin, thereby distinguishing it from other products like Quill Bot. The approach involves a unique process during the copy-paste operation, employing complex encryption to ensure consistently unique results. The encryption method, based on post-quantum cryptography, not only enhances security but also equips the system to tackle emerging technical challenges. The research problem revolves around innovatively addressing issues related to document security, hate speech, and plagiarism through advanced technology and encryption methodologies. (Adarsha Kumar , Carlo Ottavianni, Sukchpal Singhe, Rajkumar Buyya , 2021)</p></div>
+        <div><H3>Objectives</H3><p style="text-align: justify;">The primary aim of this project is to create a comprehensive and sophisticated system that tackles key issues in document security, ethical online communication, and the prevention of plagiarism. The primary objective is to offer consumers a safe platform for document transformation that may transfer both secret and non-private data to authorities. This entails enabling users to create distinct digital signatures for each document by utilizing biometric data acquired from an embedded Internet of Things (IoT) fingerprint sensor.
+
+          In addition, the research seeks to enhance the development of a favorable and courteous online atmosphere by integrating an advanced hate-speech detecting method. This process detects and converts offensive text, reducing the harm caused by hate speech and encouraging positive conversation.
+          
+          Simultaneously, the project aims to develop text transformation software that employs a unique methodology specifically tailored to improve plagiarism detection. The system aims to guarantee constantly distinct outcomes by utilizing a sophisticated encryption process throughout the copy-paste operation. This ensures both the genuineness and reliability of the content, while also enhancing the security of the conversion process through the inclusion of anomaly-detection capabilities.
+          
+          The primary goal, thus, is on creating a cutting-edge, versatile system that tackles crucial challenges in document management, internet-based communication, and intellectual property infringement. This solution is specifically developed to empower users, bolster security measures, and actively contribute to the establishment of a more favorable and secure digital environment.</p></div>
+
+       
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Research GAP</h2>
+        <p>Despite significant advancements in secure document transmission and hate speech detection, several critical research gaps hinder the development of more reliable and effective solutions. In secure document systems, challenges include the difficulty of integrating anomaly detection with encrypted traffic without compromising privacy, the scalability issues associated with whitelisting mechanisms in large organizations, and the need for real-time digital signature verification that minimizes latency. Additionally, there is an underutilization of digital forensic information for proactive threat identification and a lack of standardization and interoperability across different security technologies. In the realm of hate speech detection, current models struggle with imbalanced datasets, leading to biased classification outcomes. Future research should address these gaps by exploring data balancing techniques, leveraging advanced Transformer-based models, and integrating combination models to improve performance metrics. Addressing these interconnected gaps will require collaboration among academia, industry, and regulatory authorities to develop comprehensive, scalable, and 
+          interoperable solutions that enhance both document security and hate speech detection capabilities.</p>
+      </div><!-- End Section Title -->
+
+  
+
+         <div class="container">
+
+        
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Research Team of SafeScribe</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="member-info">
+                <h4>Weerasinghe  G G H K</h4>
+                <span>Group Leader</span>
+                <p>Unique Digital Siganture</p>
+                <p>IT Number - IT20032074</p>
+                <p>Email - IT20032074@my.sliit.lk</p>
+
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="member-info">
+                <h4>Jayathilaka H.A.D.A.P. </h4>
+                <span>Member</span>
+                <p>Secure Document Editor and Lock Down Browser</p>
+                <p>IT Number - IT21032738</p>
+                <p>Email - IT21032738@my.sliit.lk</p>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+          
+              <div class="member-info">
+                <h4>Gunawardene K.P</h4>
+                <span>Member</span>
+                <p>IT Number - IT20298876</p>
+                <p>Email - IT20298876@my.sliit.lk</p>
+             
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+           
+              <div class="member-info">
+                <h4>Samarasinghe D.P.T</h4>
+                <span>Member</span>
+                <p>IT Number - IT21101724</p>
+                <p>Email - IT21101724@my.sliit.lk</p>
+              
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Presentation Slides</h2>
+        <p>here Display all the final presentations all </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Presentation 01</h3>
+              <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/Ep1bSdP7Cs1EnLzrTKXKbvwB2oBjC9dROmUQBXe_mjOrtw?e=nBIn6u" class="buy-btn">View More</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Presentation 02</h3>
+              
+              <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/EiU7U58UdQdNtx0jUTSicz8BGzsDyZs9A6ty9JDD6pXeiA?e=mQQ0l3" class="buy-btn">View More</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Final Presentation</h3>
+             
+              <a href="https://mysliit-my.sharepoint.com/:f:/g/personal/it20032074_my_sliit_lk/Elwq39aDq85AqL0TIYfOmIIB_zocj0-P4Qk-C_0Hd-XH9Q?e=HD7JI0" class="buy-btn">View More</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+       <div class="container section-title" data-aos="fade-up">
+        <div> <h4>Rsearch Problem </h4></div>
+        <p style="text-align: justify;">
+          Within the realm of advanced technology, several instances of document-based data breaches occur on a regular basis. Based on  (Pentagon, 2022)  In April 2023, the Pentagon released millions of documents containing highly sensitive material on US military secrets. Russia portrayed itself as the victim in response to this incident.  This incident has caused significant financial losses for the Pentagon, a firm with a military focus, amounting to millions of dollars.  According to the Zero Trust architecture, information systems are susceptible to breaches at any time and in any location. (Raina, 2023) When instances like these occur at banks and hospitals, there is a considerable likelihood of exposing customers' personal and sensitive data, including applications with high levels of privacy, to the general public and unauthorised individuals.  
+When discussing digital documentation, there are several important factors that arise concerning the quality and originality of the document to be handled by various document management software.  When creating a valuable documentation for a specific task in any business, it is crucial to effectively control the quality of the document. According to (Atansiu, 2022) It is imperative that we priorities the prevention of hate speech in digital documentation to ensure compliance with ethical standards in both formal and informal ways.
+        </p>    
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Project Team for More Info</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+        
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>071-8532553</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>hiranyakeshara45@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">SafeScribe</span>
+          </a>
+          <div class="footer-contact pt-3">
+       
+            <p class="mt-3"><strong>Phone:</strong> <span>+94 718532553</span></p>
+            <p><strong>Email:</strong> <span>hiranyakeshara45@gmail.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Presentations</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Scopes</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Chater</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Final Presentation</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Project Info</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Technology</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Team</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Contact</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+          </ul>
+        </div>
+
+ 
+
+      </div>
+    </div>
+
+ 
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
